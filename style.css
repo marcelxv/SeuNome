@@ -1,12 +1,44 @@
 body {
     font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    background-color: floralwhite
+}
+
+.enviar {
+    background-color: rgb(93, 36, 206);
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+
+}
+
+.enviar:active, .enviar:focus {
+    color: white;
+}
+
+.enviar:hover {
+    transform: scale3d(1.1, 1.1, 0.1);
+   transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+   color: white;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    background-color: white;
+    margin: auto;
+    border-radius: 20px;
 }
 
 .card-content {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    max-width: 300px;
     margin: auto;
-    padding: 2rem;
+    padding-bottom: 2rem;
+
 }
 
 .card-header {
@@ -22,3 +54,15 @@ body {
 .card-header p {
     margin: 0;
 }
+
+.sign {
+    display: block;
+    margin-top: 20rem;
+    font-size: 12px;
+    color: black;
+    text-align: center;
+    width: auto;
+}
+
+
+
